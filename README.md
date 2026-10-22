@@ -208,20 +208,6 @@ Would improve for production: durable storage, webhook auth, idempotency at the 
 
 **Approximate time spent:** ~4 hours of focused implementation, testing, and documentation (within the challenge’s 3–4 hour guidance).
 
-**Unfinished / incomplete for submission packaging**
-
-- This working copy is **not a git repository** yet and has **no GitHub remote** (assignment §6.1–6.2). See [GIT_PLAN.md](./GIT_PLAN.md) for a recommended milestone commit sequence after `git init`.
-- Automated frontend tests not included (optional in the brief).
-- No cloud deployment (out of scope).
-
-## Git workflow
-
-Intended: incremental commits by milestone (foundation → payment/POS → concurrency/refunds → frontend → docs), push after each green check. **Nothing has been committed or pushed from this folder yet** — initialize git and follow [GIT_PLAN.md](./GIT_PLAN.md) before submitting a GitHub URL.
-
-## Interview prep
-
-See [INTERVIEW_PREP.md](./INTERVIEW_PREP.md) for architecture, concurrency, idempotency, and trade-off Q&A aligned with this codebase.
-
 ## AI usage
 
 See [AI_USAGE.md](./AI_USAGE.md).
